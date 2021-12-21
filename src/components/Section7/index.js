@@ -51,12 +51,36 @@ const ItemText = styled.div`
       font-size: 100px;
       margin: 0 0 20px 0;
       padding: 0;
+      @media (max-width: 900px) {
+        font-size: 80px;
+        margin: 0 20px
+      }
+      @media (max-width: 660px) {
+        font-size: 60px;
+        margin: 0 20px
+      }
+      @media (max-width: 500px) {
+        font-size: 40px;
+        margin: 0 20px
+      }
   }
   h3 {
     max-width: 850px;
       font-size: 40px;
       margin: 0 0 20px 0;
       padding: 0;
+      @media (max-width: 900px) {
+        font-size: 30px;
+        margin: 0 20px
+      }
+      @media (max-width: 660px) {
+        font-size: 20px;
+        margin: 0 20px
+      }
+      @media (max-width: 500px) {
+        font-size: 15px;
+        margin: 0 20px
+      }
   }
   p {
     font-size: 20px;

@@ -52,16 +52,39 @@ const ItemText = styled.div`
       font-size: 120px;
       margin: 0 0 20px 0;
       padding: 0;
+      @media (max-width: 768px) {
+        font-size: 80px;
+      }
+      @media (max-width: 500px) {
+        font-size: 60px;
+      }
+      @media (max-width: 340px) {
+        font-size: 40px;
+      }
   }
   h3 {
       font-size: 25px;
       margin: 0 0 20px 0;
       padding: 0;
+      @media (max-width: 500px) {
+        font-size: 17px;
+        margin: 0 20px 20px 20px;
+      }
+      @media (max-width: 340px) {
+        font-size: 13px;
+      }
   }
   p {
     font-size: 20px;
       max-width: 500px;
       text-align: center;
+      @media (max-width: 500px) {
+        font-size: 15px;
+        margin: 0 20px;
+      }
+      @media (max-width: 340px) {
+        font-size: 12px;
+      }
   }
 `;
 

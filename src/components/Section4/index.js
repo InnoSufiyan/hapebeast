@@ -60,6 +60,10 @@ const ItemText = styled.div`
     font-size: 20px;
       max-width: 750px;
       text-align: center;
+      @media (max-width: 768px) {
+        font-size: 20px;
+        margin: 0 20px;
+      }
   }
 `;
 
