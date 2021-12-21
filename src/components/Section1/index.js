@@ -84,6 +84,7 @@ const ItemText = styled.div`
       }
       @media (max-width: 340px) {
         font-size: 12px;
+        margin: 0 20px;
       }
   }
 `;

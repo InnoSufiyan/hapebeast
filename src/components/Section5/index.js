@@ -3,24 +3,15 @@ import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
 
 function Section5({
-    title,
-    description,
-    leftBtnTxt,
-    rightBtnTxt,
+    
     backgroundImg,
     color,
     imagey,
-    paragraph,
-    paragraph2
 }) {
     return (
         <Wrap bgImage={backgroundImg} checkImage={imagey} colory={color}>
             <Fade bottom>
                 <ItemText>
-                    <h1>{title}</h1>
-                    <h3>{description}</h3>
-                    <p>{paragraph}</p>
-                    <p>{paragraph2}</p>
                 </ItemText>
             </Fade>
         </Wrap>

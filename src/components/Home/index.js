@@ -50,17 +50,10 @@ function Home() {
             />
             <Section5
                 backgroundImg= '2.webp'
-                leftBtnTxt= 'Order Now'
-                rightBtnTxt = 'Learn More'
                 color="#131313"
                 imagey = {true}
             />
             <Section6
-                title="Solar New Roof"
-                description="Solar Roof costs Less than a New Roof"
-                backgroundImg= 'solar-roof.jpg'
-                leftBtnTxt= 'Order Now'
-                rightBtnTxt = 'Learn More'
                 color="#FFFFFF"
                 imagey = {false}
             />
@@ -89,4 +82,5 @@ export default Home
 
 const Container = styled.div`
     height: 100vh;
+    overflow-x: hidden;
 `
