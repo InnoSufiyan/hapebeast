@@ -9,6 +9,7 @@ import Section6 from '../Section6'
 import Section7 from '../Section7'
 import Section8 from '../Section8'
 import Section9 from '../Section9'
+import Section10 from '../Section10'
 
 function Home() {
     return (
@@ -75,6 +76,10 @@ function Home() {
                 imagey={true}
             />
             <Section9
+                color="#FFFFFF"
+                imagey={false}
+            />
+            <Section10
                 color="#FFFFFF"
                 imagey={false}
             />
