@@ -65,6 +65,16 @@ const ItemText = styled.div`
       padding: 0;
       max-width: 800px;
       line-height: 0.8;
+
+      @media (max-width : 600px) {
+        font-size: 70px;
+    }
+      @media (max-width : 450px) {
+        font-size: 50px;
+    }
+      @media (max-width : 350px) {
+        font-size: 40px;
+    }
   }
 `;
 
@@ -95,6 +105,14 @@ const ImageArea = styled.div`
 `;
 const Paragraph = styled.div`
 max-width: 400px;
+ p {
+  @media (max-width : 450px) {
+  max-width: 300px;
+    }
+  @media (max-width : 350px) {
+  max-width: 250px;
+    }
+ }
 `;
 const Buttonn = styled.div`
   
