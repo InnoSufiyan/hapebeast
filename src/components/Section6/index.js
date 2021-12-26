@@ -90,6 +90,10 @@ const Wrap = styled.div`
   justify-content: center;
   align-items: center;
   background-image: ${(props) => props.checkImage ? `url("/images/${props.bgImage}")` : `radial-gradient(${props.colory}, ${props.colory} , ${props.colory})`};
+  @media (max-width: 976px) {
+    height: 200vh;
+  }
+  
 `;
 
 const ItemText = styled.div`
@@ -99,32 +103,45 @@ const ItemText = styled.div`
   flex-direction: column;
   align-items: center;
 
-  h1 {
-      font-size: 120px;
-      margin: 0 0 20px 0;
-      padding: 0;
-  }
+ 
   h3 {
       font-size: 25px;
       margin: 0 0 20px 0;
       padding: 0;
-  }
-  p {
-    font-size: 20px;
-      max-width: 500px;
-      text-align: center;
-  }
+
+       @media (max-width: 400px) {
+        font-size: 20px;
+        margin : 0px;
+  } }
+  
 `;
 
 const ImageSection = styled.div`
   width: 100vw;
 
+  @media (max-width: 400px) {
+  }
 
+  h2 {
+    @media (max-width : 400px) {
+      margin : 5px;
+    }
+  }
+  p {
+    @media (max-width : 400px) {
+      margin : 5px;
+    }
+  }
 `;
 
 const Image = styled.img`
   width: 300px;
   height: 300px;
+
+  @media (max-width: 400px) {
+    width: 200px;
+  height: 200px;
+  }
 `;
 
 const ImageArea = styled.div`
@@ -132,4 +149,11 @@ const ImageArea = styled.div`
   width: 100vw;
   justify-content: space-between;
   margin-top : 60px;
+
+  @media (max-width: 976px) {
+    flex-direction: column;
+  }
+  @media (max-width: 400px) {
+    margin-top : 30px;
+  }
 `;
