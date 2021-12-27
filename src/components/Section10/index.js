@@ -90,7 +90,7 @@ const Wrap = styled.div`
     height: 150vh;
     }
   @media (max-width : 500px) {
-    height: 240vh;
+    height: 360vh;
     }
 `;
 
