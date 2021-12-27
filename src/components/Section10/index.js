@@ -85,12 +85,22 @@ const Wrap = styled.div`
   justify-content: space-around;
   align-items: center;
   background-image: ${(props) => props.checkImage ? `url("/images/${props.bgImage}")` : `radial-gradient(${props.colory}, ${props.colory} , ${props.colory})`};
+
+  @media (max-width : 976px) {
+    height: 150vh;
+    }
+  @media (max-width : 500px) {
+    height: 240vh;
+    }
 `;
 
 const ImageSection1 = styled.div`
 width: 100vw;
   display: flex;
   justify-content: space-around;
+  flex-wrap : wrap;
+
+  
 `
 const ImageSection2 = styled.div`
   display: flex;
