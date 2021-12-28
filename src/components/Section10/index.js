@@ -76,7 +76,6 @@ export default Section10;
 
 const Wrap = styled.div`
   width: 100vw;
-  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -85,6 +84,7 @@ const Wrap = styled.div`
   justify-content: space-around;
   align-items: center;
   background-image: ${(props) => props.checkImage ? `url("/images/${props.bgImage}")` : `radial-gradient(${props.colory}, ${props.colory} , ${props.colory})`};
+  margin : 20px 0;
 
   @media (max-width : 976px) {
     height: 150vh;
