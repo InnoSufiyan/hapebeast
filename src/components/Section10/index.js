@@ -87,10 +87,10 @@ const Wrap = styled.div`
   margin : 20px 0;
 
   @media (max-width : 976px) {
-    height: 150vh;
+    min-height: 150vh;
     }
   @media (max-width : 500px) {
-    height: 360vh;
+    min-height: 360vh;
     }
 `;
 
