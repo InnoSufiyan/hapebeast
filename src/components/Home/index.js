@@ -57,8 +57,9 @@ function Home() {
                 paragraph="DECEMBER 2021"
                 paragraph2="RELEASE DATE:"
                 backgroundImg='accessories.jpg'
-                color="#E62E2D"
+                color="#070707"
                 imagey={false}
+                textColor = '#cc7729'
             />
             <Section8
                 backgroundImg='4.webp'
@@ -66,16 +67,19 @@ function Home() {
                 imagey={true}
             />
             <Section9
-                color="#FFFFFF"
+                color="#070707"
                 imagey={false}
+                textColor = '#cc7729'
             />
             <Section10
                 color="#FFFFFF"
                 imagey={false}
+                textColor = '#070707'
             />
             <Section11
                 color="#070707"
                 imagey={false}
+                textColor = '#cc7729'
             />
         </Container>
     )

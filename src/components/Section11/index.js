@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
 
 function Section11({
-
+  textColor,
   backgroundImg,
   color,
   imagey,
@@ -12,7 +12,7 @@ function Section11({
     <Wrap bgImage={backgroundImg} checkImage={imagey} colory={color}>
       <Fade bottom>
 
-        <TextArea>
+        <TextArea textColor= {textColor}>
           <Headline>
             Art x Collectibles
           </Headline>
@@ -58,7 +58,7 @@ const Wrap = styled.div`
 `;
 
 const TextArea = styled.div`
-  color: white;
+  color: ${(props)=> props.textColor};
   display: flex;
   flex-direction: column;
   align-items: flex-start;

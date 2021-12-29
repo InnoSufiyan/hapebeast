@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
 
 function Section10({
-
+  textColor,
   backgroundImg,
   color,
   imagey,
@@ -11,7 +11,7 @@ function Section10({
   return (
     <Wrap bgImage={backgroundImg} checkImage={imagey} colory={color}>
       <Fade bottom>
-        <ImageSection1>
+        <ImageSection1 textColor= {textColor}>
           <ImageArea>
             <Image src="/images/15.webp" />
             <h3>TROU</h3>
@@ -99,6 +99,7 @@ width: 100vw;
   display: flex;
   justify-content: space-around;
   flex-wrap : wrap;
+  color: ${(props)=> props.textColor}
 
   
 `
