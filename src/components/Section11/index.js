@@ -43,6 +43,7 @@ export default Section11;
 
 const Wrap = styled.div`
   width: 100vw;
+  min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

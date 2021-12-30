@@ -30,11 +30,13 @@ function Home() {
                 backgroundImg='model-y.jpg'
                 color="#131313"
                 imagey={false}
+                textColor = '#C69320'
             />
             <Section3
                 backgroundImg='5.PNG'
                 color="#131313"
                 imagey={true}
+                textColor = '#C69320'
             />
             <Section4
                 paragraph="HAPEBEAST is a new art and fashion playground from London-based studio Digimental. Built around an initial drop of 8,192 unique NFTs on the Ethereum blockchain, the project unites style, technology and community, and sets up HAPES as next-generation fashion leaders."
@@ -42,6 +44,7 @@ function Home() {
                 backgroundImg='model-x.jpg'
                 color="#131313"
                 imagey={false}
+                textColor = '#C69320'
             />
             <Section5
                 backgroundImg='2.webp'
@@ -57,9 +60,9 @@ function Home() {
                 paragraph="DECEMBER 2021"
                 paragraph2="RELEASE DATE:"
                 backgroundImg='accessories.jpg'
-                color="#070707"
+                color="#131313"
                 imagey={false}
-                textColor = '#cc7729'
+                textColor = '#C69320'
             />
             <Section8
                 backgroundImg='4.webp'
@@ -67,9 +70,9 @@ function Home() {
                 imagey={true}
             />
             <Section9
-                color="#070707"
+                color="#131313"
                 imagey={false}
-                textColor = '#cc7729'
+                textColor = '#C69320'
             />
             <Section10
                 color="#FFFFFF"
@@ -77,9 +80,9 @@ function Home() {
                 textColor = '#070707'
             />
             <Section11
-                color="#070707"
+                color="#131313"
                 imagey={false}
-                textColor = '#cc7729'
+                textColor = '#C69320'
             />
         </Container>
     )
