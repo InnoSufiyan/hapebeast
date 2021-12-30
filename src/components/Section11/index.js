@@ -51,6 +51,7 @@ const Wrap = styled.div`
   justify-content: center;
   align-items: center;
   background-image: ${(props) => props.checkImage ? `url("/images/${props.bgImage}")` : `radial-gradient(${props.colory}, ${props.colory} , ${props.colory})`};
+  gap: 35px;
 
   @media (max-width : 976px) {
     flex-direction: column;

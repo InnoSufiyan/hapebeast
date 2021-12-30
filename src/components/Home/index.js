@@ -28,9 +28,9 @@ function Home() {
                 paragraph="A starlit ceremony, two million years ago. Lightning strikes the monolith and the universe fractures. Apes spin off in 10k tribes, distinct but familiar. Every ape is unique. Every ape is beautiful. Every ape is loved, and every ape is family, whatever their differences, wherever they are now."
                 paragraph2="Meanwhile, at the heart of the shattered multiverse, the PRIMAL HAPES wait for the whole family to return. They wait and they build out their style, they work the Hapewalk, and they plan for a bigger future."
                 backgroundImg='model-y.jpg'
-                color="#131313"
+                color="#C69320"
                 imagey={false}
-                textColor = '#C69320'
+                textColor = '#131313'
             />
             <Section3
                 backgroundImg='5.PNG'
@@ -52,8 +52,9 @@ function Home() {
                 imagey={true}
             />
             <Section6
-                color="#FFFFFF"
+                color="#C69320"
                 imagey={false}
+                textColor = '#131313'
             />
             <Section7
                 description="PROTECT YOURSELF AND THE COMMUNITY FROM SCAMMERS. REPORT FAKE COLLECTIONS."
@@ -77,7 +78,7 @@ function Home() {
             <Section10
                 color="#FFFFFF"
                 imagey={false}
-                textColor = '#070707'
+                textColor = '#131313'
             />
             <Section11
                 color="#131313"
