@@ -71,11 +71,11 @@ function Home() {
                 color="#131313"
                 imagey={true}
             />
-            <Section9
+            {/* <Section9
                 color="#131313"
                 imagey={false}
                 textColor='#C69320'
-            />
+            /> */}
             <Section12
                 color="#FFFFFF"
                 imagey={false}

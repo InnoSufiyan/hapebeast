@@ -74,6 +74,7 @@ const Wrap = styled.div`
   align-items: center;
   background-image: ${(props) => props.checkImage ? `url("/images/${props.bgImage}")` : `radial-gradient(${props.colory}, ${props.colory} , ${props.colory})`};
   color: ${(props) => props.textColor};
+  padding: 40px 0;  
 
   @media (max-width: 976px) {
     min-height: 250vh;
