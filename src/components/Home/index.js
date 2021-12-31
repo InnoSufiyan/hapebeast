@@ -86,11 +86,11 @@ function Home() {
                 imagey={false}
                 textColor='#131313'
             /> */}
-            <Section11
+            {/* <Section11
                 color="#131313"
                 imagey={false}
                 textColor='#C69320'
-            />
+            /> */}
         </Container>
     )
 }
