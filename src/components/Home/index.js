@@ -11,6 +11,7 @@ import Section8 from '../Section8'
 import Section9 from '../Section9'
 import Section10 from '../Section10'
 import Section11 from '../Section11'
+import Section12 from '../Section12'
 
 function Home() {
     return (
@@ -30,21 +31,21 @@ function Home() {
                 backgroundImg='model-y.jpg'
                 color="#C69320"
                 imagey={false}
-                textColor = '#131313'
+                textColor='#131313'
             />
-            <Section3
+            {/* <Section3
                 backgroundImg='5.PNG'
                 color="#131313"
                 imagey={true}
                 textColor = '#C69320'
-            />
+            /> */}
             <Section4
                 paragraph="HAPEBEAST is a new art and fashion playground from London-based studio Digimental. Built around an initial drop of 8,192 unique NFTs on the Ethereum blockchain, the project unites style, technology and community, and sets up HAPES as next-generation fashion leaders."
                 paragraph2="You can find out more about the HAPEBEAST team below and see the lightest hints for our post-release plans. As we move closer to launch this site will evolve; like apes at the dawn of a new world we’re making something from nothing, noise from silence. In the beginning was the word. The word was, and is, HAPE."
                 backgroundImg='model-x.jpg'
                 color="#131313"
                 imagey={false}
-                textColor = '#C69320'
+                textColor='#C69320'
             />
             <Section5
                 backgroundImg='2.webp'
@@ -54,7 +55,7 @@ function Home() {
             <Section6
                 color="#C69320"
                 imagey={false}
-                textColor = '#131313'
+                textColor='#131313'
             />
             <Section7
                 description="PROTECT YOURSELF AND THE COMMUNITY FROM SCAMMERS. REPORT FAKE COLLECTIONS."
@@ -63,7 +64,7 @@ function Home() {
                 backgroundImg='accessories.jpg'
                 color="#131313"
                 imagey={false}
-                textColor = '#C69320'
+                textColor='#C69320'
             />
             <Section8
                 backgroundImg='4.webp'
@@ -73,17 +74,22 @@ function Home() {
             <Section9
                 color="#131313"
                 imagey={false}
-                textColor = '#C69320'
+                textColor='#C69320'
             />
-            <Section10
+            <Section12
                 color="#FFFFFF"
                 imagey={false}
-                textColor = '#131313'
+                textColor='#131313'
             />
+            {/* <Section10
+                color="#FFFFFF"
+                imagey={false}
+                textColor='#131313'
+            /> */}
             <Section11
                 color="#131313"
                 imagey={false}
-                textColor = '#C69320'
+                textColor='#C69320'
             />
         </Container>
     )
