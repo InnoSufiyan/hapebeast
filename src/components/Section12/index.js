@@ -23,59 +23,36 @@ function Section12({
         <ImageArea>
           <ImageSection>
             <Image src="/images/24.jpg" />
-            <TextSection>
+            <TextArea>
               <h2>
-                PHASE 1:
-              </h2>
-              <h2>
-                IN THE BEGINNING
+                Bull Boss
               </h2>
               <p>
-                A new dimension
+                Founder, Marketing & Development.
               </p>
-              <p>
-                First drop
-              </p>
-              <p>
-                Music to HAPE to
-              </p>
-            </TextSection>
+            </TextArea>
           </ImageSection>
           <ImageSection>
             <Image src="/images/25.jpg" />
-            <h2>
-              PHASE 1:
-            </h2>
-            <h2>
-              IN THE BEGINNING
-            </h2>
-            <p>
-              A new dimension
-            </p>
-            <p>
-              First drop
-            </p>
-            <p>
-              Music to HAPE to
-            </p>
+            <TextArea>
+              <h2>
+                Bondai
+              </h2>
+              <p>
+                Founder, Marketing & Development.
+              </p>
+            </TextArea>
           </ImageSection>
           <ImageSection>
             <Image src="/images/26.jpg" />
-            <h2>
-              PHASE 1:
-            </h2>
-            <h2>
-              IN THE BEGINNING
-            </h2>
-            <p>
-              A new dimension
-            </p>
-            <p>
-              First drop
-            </p>
-            <p>
-              Music to HAPE to
-            </p>
+            <TextArea>
+              <h2>
+                Bonie Bull
+              </h2>
+              <p>
+                Blockchain Expert & Web3 developer.
+              </p>
+            </TextArea>
           </ImageSection>
         </ImageArea>
       </Fade>
@@ -100,6 +77,11 @@ const Wrap = styled.div`
 
   @media (max-width: 976px) {
     min-height: 250vh;
+  }
+
+  @media (max-width: 400px) {
+    justify-content: space-around;
+    min-height: 200vh;
   }
   
 `;
@@ -128,25 +110,32 @@ const ItemText = styled.div`
 `;
 
 const ImageSection = styled.div`
-
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+  
   @media (max-width: 400px) {
+    margin: 40px 0;
+
   }
 
   h2 {
+    color: white; 
     @media (max-width : 400px) {
-      margin : 5px;
+      font-size: 15px;  
     }
   }
   p {
     @media (max-width : 400px) {
-      margin : 5px;
+      font-size: 14px;  
     }
   }
 `;
 
 const Image = styled.img`
-  width: 36 0px;
-  height: 36  0px;
+  width: 360px;
+  height: 360px;
 
   @media (max-width: 400px) {
     width: 200px;
@@ -169,5 +158,23 @@ const ImageArea = styled.div`
   }
 `;
 
-const TextSection = styled.div`
+
+const TextArea = styled.div`
+  width: 300px;
+  bottom: -50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  background-color : #232323;
+  color : #c3cec3;
+  padding: 20px;
+
+  h2, p {
+    margin: 0;
+  }
+
+  @media (max-width: 400px) {
+    width: 140px;
+  }
 `
