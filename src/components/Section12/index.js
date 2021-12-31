@@ -115,7 +115,7 @@ const ImageSection = styled.div`
   justify-content: center;
   
   
-  @media (max-width: 400px) {
+  @media (max-width: 976px) {
     margin: 40px 0;
 
   }
