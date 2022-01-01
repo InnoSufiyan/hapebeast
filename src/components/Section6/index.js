@@ -82,7 +82,7 @@ export default Section6;
 
 const Wrap = styled.div`
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -94,7 +94,7 @@ const Wrap = styled.div`
   color: ${(props)=> props.textColor};
 
   @media (max-width: 976px) {
-    min-height: 250vh;
+    padding: 100px 0;
   }
   
 `;

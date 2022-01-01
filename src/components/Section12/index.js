@@ -64,7 +64,7 @@ export default Section12;
 
 const Wrap = styled.div`
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -74,15 +74,13 @@ const Wrap = styled.div`
   align-items: center;
   background-image: ${(props) => props.checkImage ? `url("/images/${props.bgImage}")` : `radial-gradient(${props.colory}, ${props.colory} , ${props.colory})`};
   color: ${(props) => props.textColor};
-  padding: 40px 0;  
+  padding: 125px 0;  
 
   @media (max-width: 976px) {
-    min-height: 250vh;
   }
 
   @media (max-width: 400px) {
     justify-content: space-around;
-    min-height: 200vh;
   }
   
 `;
@@ -95,6 +93,7 @@ const ItemText = styled.div`
 
   h4 {
     max-width: 500px;
+    padding : 0 20px;
   }
 
  
@@ -151,8 +150,9 @@ const ImageArea = styled.div`
   margin-top : 60px;
   gap: 60px;
 
-  @media (max-width: 976px) {
+  @media (max-width: 1200px) {
     flex-direction: column;
+    
   }
   @media (max-width: 400px) {
     margin-top : 30px;

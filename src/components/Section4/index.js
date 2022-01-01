@@ -38,7 +38,7 @@ const Wrap = styled.div`
   
 
   @media (max-width: 660px) {
-    padding: 30px 0;
+    padding: 60px 0;
   }
 `;
 
