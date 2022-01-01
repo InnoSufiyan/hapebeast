@@ -3,13 +3,13 @@ import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
 
 function Section9({
-
+  textColor,
   backgroundImg,
   color,
   imagey,
 }) {
   return (
-    <Wrap bgImage={backgroundImg} checkImage={imagey} colory={color}>
+    <Wrap bgImage={backgroundImg} checkImage={imagey} colory={color} textColor= {textColor}>
       <Fade bottom>
         <ItemText>
           <h1>
@@ -51,11 +51,11 @@ const Wrap = styled.div`
   justify-content: center;
   align-items: center;
   background-image: ${(props) => props.checkImage ? `url("/images/${props.bgImage}")` : `radial-gradient(${props.colory}, ${props.colory} , ${props.colory})`};
-  margin : 20px 0;
+  
+  color: ${(props)=> props.textColor};
 `;
 
 const ItemText = styled.div`
-  color: black;
   text-align: center;
   display: flex;
   flex-direction: column;

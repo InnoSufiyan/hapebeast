@@ -8,10 +8,11 @@ function Section7({
   color,
   imagey,
   paragraph,
-  paragraph2
+  paragraph2,
+  textColor
 }) {
   return (
-    <Wrap bgImage={backgroundImg} checkImage={imagey} colory={color}>
+    <Wrap bgImage={backgroundImg} checkImage={imagey} colory={color} textColor= {textColor}>
       <Fade bottom>
         <ItemText>
           <h3>{description}</h3>
@@ -35,10 +36,10 @@ const Wrap = styled.div`
   justify-content: center;
   align-items: center;
   background-image: ${(props) => props.checkImage ? `url("/images/${props.bgImage}")` : `radial-gradient(${props.colory}, ${props.colory} , ${props.colory})`};
+  color: ${(props)=> props.textColor};
 `;
 
 const ItemText = styled.div`
-    color: white;
   text-align: center;
   display: flex;
   flex-direction: column;

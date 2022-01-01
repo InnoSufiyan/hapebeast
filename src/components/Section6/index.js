@@ -7,9 +7,10 @@ function Section6({
   backgroundImg,
   color,
   imagey,
+  textColor
 }) {
   return (
-    <Wrap bgImage={backgroundImg} checkImage={imagey} colory={color}>
+    <Wrap bgImage={backgroundImg} checkImage={imagey} colory={color} textColor= {textColor}>
       <Fade bottom>
         <ItemText>
           <h3>
@@ -81,7 +82,7 @@ export default Section6;
 
 const Wrap = styled.div`
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,14 +91,15 @@ const Wrap = styled.div`
   justify-content: center;
   align-items: center;
   background-image: ${(props) => props.checkImage ? `url("/images/${props.bgImage}")` : `radial-gradient(${props.colory}, ${props.colory} , ${props.colory})`};
+  color: ${(props)=> props.textColor};
+
   @media (max-width: 976px) {
-    min-height: 250vh;
+    padding: 100px 0;
   }
   
 `;
 
 const ItemText = styled.div`
-  color: black;
   text-align: center;
   display: flex;
   flex-direction: column;

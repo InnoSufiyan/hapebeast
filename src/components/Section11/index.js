@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
 
 function Section11({
-
+  textColor,
   backgroundImg,
   color,
   imagey,
@@ -12,7 +12,7 @@ function Section11({
     <Wrap bgImage={backgroundImg} checkImage={imagey} colory={color}>
       <Fade bottom>
 
-        <TextArea>
+        <TextArea textColor= {textColor}>
           <Headline>
             Art x Collectibles
           </Headline>
@@ -43,6 +43,7 @@ export default Section11;
 
 const Wrap = styled.div`
   width: 100vw;
+  min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,6 +51,8 @@ const Wrap = styled.div`
   justify-content: center;
   align-items: center;
   background-image: ${(props) => props.checkImage ? `url("/images/${props.bgImage}")` : `radial-gradient(${props.colory}, ${props.colory} , ${props.colory})`};
+  gap: 35px;
+  padding: 40px 0;
 
   @media (max-width : 976px) {
     flex-direction: column;
@@ -58,7 +61,7 @@ const Wrap = styled.div`
 `;
 
 const TextArea = styled.div`
-  color: white;
+  color: ${(props)=> props.textColor};
   display: flex;
   flex-direction: column;
   align-items: flex-start;
