@@ -10,6 +10,7 @@ function Section2({
     imagey,
     paragraph,
     paragraph2,
+    paragraph3,
     textColor
 }) {
     return (
@@ -20,6 +21,7 @@ function Section2({
                     <h3>{description}</h3>
                     <p>{paragraph}</p>
                     <p>{paragraph2}</p>
+                    <p>{paragraph3}</p>
                 </ItemText>
             </Fade>
         </Wrap>

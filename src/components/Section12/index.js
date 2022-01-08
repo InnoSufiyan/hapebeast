@@ -14,43 +14,54 @@ function Section12({
       <Fade bottom>
         <ItemText>
           <h3>
-            Meet the CBS Team
+            Meet the team.
           </h3>
-          <h4>
+          {/* <h4>
             Here is the team that is managing this project with the aArtist, Gal. Don't worry, we also have 15 team members taking care of our Social medias, discord, marketing and more.
-          </h4>
+          </h4> */}
         </ItemText>
         <ImageArea>
           <ImageSection>
-            <Image src="/images/24.jpg" />
+            <Image src="/images/Metaversity 2.png" />
             <TextArea>
               <h2>
-                Bull Boss
+                Srikar
               </h2>
               <p>
-                Founder, Marketing & Development.
+                Co-Founder, Project Lead, Digital Marketer, Web 3.0 Enthusiast.
               </p>
             </TextArea>
           </ImageSection>
           <ImageSection>
-            <Image src="/images/25.jpg" />
+            <Image src="/images/Metaversity 3.png" />
             <TextArea>
               <h2>
-                Bondai
+                Sai
               </h2>
               <p>
-                Founder, Marketing & Development.
+                Co-Founder, Community builder, Social Media strategist, NFT Enthusiast.
               </p>
             </TextArea>
           </ImageSection>
           <ImageSection>
-            <Image src="/images/26.jpg" />
+            <Image src="/images/Metaversity 6.png" />
             <TextArea>
               <h2>
-                Bonie Bull
+                Harsha
               </h2>
               <p>
-                Blockchain Expert & Web3 developer.
+                Community Manager, Tech expert, startup aficionado and discord guru.
+              </p>
+            </TextArea>
+          </ImageSection>
+          <ImageSection>
+            <Image src="/images/Metaversity 4.png" />
+            <TextArea>
+              <h2>
+                Nate
+              </h2>
+              <p>
+                Marketing Lead, Agency founder who manages over 5000 influencers.
               </p>
             </TextArea>
           </ImageSection>

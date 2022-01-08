@@ -10,17 +10,17 @@ function Section6({
   textColor
 }) {
   return (
-    <Wrap bgImage={backgroundImg} checkImage={imagey} colory={color} textColor= {textColor}>
+    <Wrap bgImage={backgroundImg} checkImage={imagey} colory={color} textColor={textColor}>
       <Fade bottom>
         <ItemText>
           <h3>
-            ROADMAP TEASER
+            9876 University Themed Monkeys.
           </h3>
         </ItemText>
         <ImageArea>
           <ImageSection>
-            <Image src="/images/11.webp" />
-            <h2>
+            <Image src="/images/Metaversity 2.png" />
+            {/* <h2>
               PHASE 1:
             </h2>
             <h2>
@@ -34,11 +34,11 @@ function Section6({
             </p>
             <p>
               Music to HAPE to
-            </p>
+            </p> */}
           </ImageSection>
           <ImageSection>
-            <Image src="/images/11.webp" />
-            <h2>
+            <Image src="/images/Metaversity 4.png" />
+            {/* <h2>
               PHASE 1:
             </h2>
             <h2>
@@ -52,11 +52,11 @@ function Section6({
             </p>
             <p>
               Music to HAPE to
-            </p>
+            </p> */}
           </ImageSection>
           <ImageSection>
-            <Image src="/images/11.webp" />
-            <h2>
+            <Image src="/images/Metaversity 5.png" />
+            {/* <h2>
               PHASE 1:
             </h2>
             <h2>
@@ -70,7 +70,25 @@ function Section6({
             </p>
             <p>
               Music to HAPE to
+            </p> */}
+          </ImageSection>
+          <ImageSection>
+            <Image src="/images/Metaversity 6.png" />
+            {/* <h2>
+              PHASE 1:
+            </h2>
+            <h2>
+              IN THE BEGINNING
+            </h2>
+            <p>
+              A new dimension
             </p>
+            <p>
+              First drop
+            </p>
+            <p>
+              Music to HAPE to
+            </p> */}
           </ImageSection>
         </ImageArea>
       </Fade>
@@ -91,7 +109,7 @@ const Wrap = styled.div`
   justify-content: center;
   align-items: center;
   background-image: ${(props) => props.checkImage ? `url("/images/${props.bgImage}")` : `radial-gradient(${props.colory}, ${props.colory} , ${props.colory})`};
-  color: ${(props)=> props.textColor};
+  color: ${(props) => props.textColor};
 
   @media (max-width: 976px) {
     padding: 100px 0;
@@ -139,6 +157,7 @@ const ImageSection = styled.div`
 const Image = styled.img`
   width: 300px;
   height: 300px;
+  border-radius: 50%;
 
   @media (max-width: 400px) {
     width: 200px;

@@ -3,19 +3,31 @@ import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
 
 function Section4({
+    description,
     backgroundImg,
     color,
     imagey,
     paragraph,
     paragraph2,
+    paragraph3,
+    paragraph4,
+    paragraph5,
+    paragraph6,
+    paragraph7,
     textColor
 }) {
     return (
         <Wrap bgImage={backgroundImg} checkImage={imagey} colory={color} textColor= {textColor}>
             <Fade bottom>
                 <ItemText>
+                    <h1>{description}</h1>
                     <p>{paragraph}</p>
                     <p>{paragraph2}</p>
+                    <p>{paragraph3}</p>
+                    <p>{paragraph4}</p>
+                    <p>{paragraph5}</p>
+                    <p>{paragraph6}</p>
+                    <p>{paragraph7}</p>
                 </ItemText>
             </Fade>
         </Wrap>
