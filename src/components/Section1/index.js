@@ -50,12 +50,12 @@ const ItemText = styled.div`
 
   h1 {
     font-size: 120px;
-    margin: 0 0 20px 0;
+    margin: 0 20px 20px 20px;
     padding: 0;
-    @media (max-width: 768px) {
+    @media (max-width: 780px) {
       font-size: 80px;
     }
-    @media (max-width: 500px) {
+    @media (max-width: 520px) {
       font-size: 60px;
     }
     @media (max-width: 340px) {
@@ -65,7 +65,7 @@ const ItemText = styled.div`
   h3 {
     font-size: 25px;
     margin: 0 0 20px 0;
-    padding: 0;
+    padding: 0 20px;
     @media (max-width: 500px) {
       font-size: 17px;
       margin: 0 20px 20px 20px;
