@@ -1,5 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import Section1New from '../Section1New'
+import Section2New from '../Section2New'
+import Section3New from '../Section3New'
 import Section1 from '../Section1'
 import Section2 from '../Section2'
 import Section3 from '../Section3'
@@ -17,6 +20,37 @@ import Section13 from '../Section13'
 function Home() {
     return (
         <Container>
+            <Section1New
+                title="THE METAVERSITY"
+                description="9876 Student Monkeys that attend
+                Metaverse University on the Blockchain."
+                paragraph=""
+                backgroundImg='1.webp'
+                color1="#0e336a"
+                color2="#050f1b"
+                color3="#020204"
+                imagey={false}
+            />
+            <Section2New
+                title="THE METAVERSITY"
+                description="9876 Student Monkeys that attend
+                Metaverse University on the Blockchain."
+                paragraph=""
+                backgroundImg='1.webp'
+                color1="#0e336a"
+                color2="#937a31"
+                imagey={false}
+            />
+            <Section3New
+                title="THE METAVERSITY"
+                description="9876 Student Monkeys that attend
+                Metaverse University on the Blockchain."
+                paragraph=""
+                backgroundImg='1.webp'
+                color1="#0e336a"
+                color2="#937a31"
+                imagey={false}
+            />
             <Section1
                 title="THE METAVERSITY"
                 description="9876 Student Monkeys that attend
@@ -74,12 +108,12 @@ function Home() {
                 imagey={false}
                 textColor='#C69320'
             />
-            {/* <Section3
+            <Section3
                 backgroundImg='5.PNG'
                 color="#131313"
                 imagey={true}
                 textColor = '#C69320'
-            /> */}
+            />
             <Section6
                 color="#C69320"
                 imagey={false}
@@ -123,21 +157,21 @@ function Home() {
                 imagey={false}
                 textColor='#C69320'
             />
-            {/* <Section9
+            <Section9
                 color="#131313"
                 imagey={false}
                 textColor='#C69320'
-            /> */}
-            {/* <Section10
+            />
+            <Section10
                 color="#FFFFFF"
                 imagey={false}
                 textColor='#131313'
-            /> */}
-            {/* <Section11
+            />
+            <Section11
                 color="#131313"
                 imagey={false}
                 textColor='#C69320'
-            /> */}
+            />
         </Container>
     )
 }
