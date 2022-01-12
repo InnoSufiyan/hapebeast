@@ -12,15 +12,36 @@ function Section4New({
   imagey,
   paragraph,
   paragraph2,
+  textColor
 }) {
   return (
     <Wrap bgImage={backgroundImg} checkImage={imagey} colory1={color1} colory2={color2} colory3={color3}>
       <Fade bottom>
-        <ItemText>
-          <h1>dada</h1>
-          <h3>{description}</h3>
-          <p>{paragraph}</p>
-        </ItemText>
+        <TextArea textColor={textColor}>
+          <Headline>
+            Art x Collectibles
+          </Headline>
+          <Paragraph>
+            In 1989, the original Charging Bull sculpture was created by Italian artist Arturo Di Modica and placed on Wall Street. It was meant to symbolize the aggressive financial optimism and prosperity of the stock market.
+          </Paragraph>
+          <Paragraph>
+            After the success of the original, its artist was commissioned to create multiple variations of the bull. Each sold to private collectors all over the world.
+          </Paragraph>
+          <Paragraph>
+            Financial optimism and aggressive growth has moved on from Wall Street… and into the Metaverse.
+          </Paragraph>
+        </TextArea>
+        <ImageArea>
+          <Imagefirst>
+            <img src="/images/22.jpg" />
+          </Imagefirst>
+          <ImageSecond>
+            <img src="/images/23.jpeg" />
+          </ImageSecond>
+          <ImageThird>
+            <img src="/images/25.jpg" />
+          </ImageThird>
+        </ImageArea>
       </Fade>
     </Wrap>
   );
@@ -37,63 +58,111 @@ const Wrap = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 35px;
+  padding: 40px 0;
   /* background-image : radial-gradient(#937a31, #020204); */
   /* background-image : radial-gradient(farthest-corner at 90% 40px,
       #937a31 0%, #020204 70%); */
       background : url('/images/4.png') center center / contain, radial-gradient(ellipse farthest-corner at 10% 90%,
         #552059 0%, #020204 70%);
   background-blend-mode: overlay;
+
+  @media (max-width : 976px) {
+    flex-direction: column;
+    }
 `;
 
 // 6b571c
 // 552059
 
-const ItemText = styled.div`
-  color: white;
-  text-align: center;
+const TextArea = styled.div`
+color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  margin-left : -150px;
+`
 
-  h1 {
-    font-size: 120px;
-    margin: 0 20px 20px 20px;
-    padding: 0;
-    @media (max-width: 780px) {
-      font-size: 80px;
-    }
-    @media (max-width: 520px) {
-      font-size: 60px;
-    }
-    @media (max-width: 400px) {
-      font-size: 40px;
-    }
-  }
-  h3 {
-    font-size: 25px;
-    margin: 0 0 20px 0;
-    padding: 0 20px;
-    @media (max-width: 500px) {
-      font-size: 17px;
-      margin: 0 20px 20px 20px;
-    }
-    @media (max-width: 340px) {
-      font-size: 13px;
-    }
-  }
-  p {
-    font-size: 20px;
-    max-width: 500px;
-    text-align: center;
-    @media (max-width: 500px) {
-      font-size: 15px;
-      margin: 0 20px;
-    }
-    @media (max-width: 340px) {
-      font-size: 12px;
-      margin: 0 20px;
-    }
-  }
-`;
+const Headline = styled.h1`
+`
 
-const Buttons = styled.div``;
+const Paragraph = styled.p`
+  text-align: justify;
+  width: 30vw;
+  background: linear-gradient(to right,
+    #243e55, #1b2664);
+    padding: 20px 20px;
+    border-radius: 10px;
+
+  @media (max-width : 976px) {
+    width: 80vw;
+    }
+
+`
+
+const ImageArea = styled.div`
+  margin-right: 100px;
+
+  @media (max-width : 976px) {
+    margin-right: 180px;
+    }
+  @media (max-width : 700px) {
+    margin: 0 auto;
+    }
+`
+
+const Imagefirst = styled.div`
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 130px;
+  left: 320px;
+
+  img {
+    width: 100%;
+  }
+
+  @media (max-width : 700px) {
+    top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+    }
+`
+
+const ImageSecond = styled.div`
+width: 300px;
+  height: 300px;
+  position: relative;
+  top: -50px;
+
+  img {
+    width: 100%;
+  }
+
+  @media (max-width : 700px) {
+    top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+    }
+`
+const ImageThird = styled.div`
+width: 150px;
+  height: 150px;
+  position: relative;
+  bottom: 150px;
+  left: 320px;
+
+  img {
+    width: 100%;
+  }
+
+  @media (max-width : 700px) {
+    top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+    }
+`
+

@@ -61,11 +61,11 @@ function Home() {
                 color1="#0e336a"
                 color2="#937a31"
                 imagey={false}
+                textColor='#C69320'
             />
             <Section5New
-                title="THE METAVERSITY"
-                description="9876 Student Monkeys that attend
-                Metaverse University on the Blockchain."
+                title="Explore Now"
+                description="Discover, Earn and Collect Rewards with NFTs."
                 paragraph=""
                 backgroundImg='1.webp'
                 color1="#0e336a"

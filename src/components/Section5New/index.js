@@ -17,7 +17,7 @@ function Section5New({
     <Wrap bgImage={backgroundImg} checkImage={imagey} colory1={color1} colory2={color2} colory3={color3}>
       <Fade bottom>
         <ItemText>
-          <h1>dada</h1>
+          <h1>{title}</h1>
           <h3>{description}</h3>
           <p>{paragraph}</p>
         </ItemText>
@@ -72,7 +72,10 @@ const ItemText = styled.div`
   h3 {
     font-size: 25px;
     margin: 0 0 20px 0;
-    padding: 0 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right,
+      #243e55, #1b2664);
     @media (max-width: 500px) {
       font-size: 17px;
       margin: 0 20px 20px 20px;
