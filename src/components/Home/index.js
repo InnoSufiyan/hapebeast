@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import Section1New from '../Section1New'
 import Section2New from '../Section2New'
 import Section3New from '../Section3New'
+import Section4New from '../Section4New'
+import Section5New from '../Section5New'
 import Section1 from '../Section1'
 import Section2 from '../Section2'
 import Section3 from '../Section3'
@@ -42,6 +44,25 @@ function Home() {
                 imagey={false}
             />
             <Section3New
+                title="About NFT Extreme"
+                description="An Interactive way to earn rewards with NFT, upgrading the house for reward bonuses and buying additional updates."
+                paragraph=""
+                backgroundImg='1.webp'
+                color1="#0e336a"
+                color2="#937a31"
+                imagey={false}
+            />
+            <Section4New
+                title="THE METAVERSITY"
+                description="9876 Student Monkeys that attend
+                Metaverse University on the Blockchain."
+                paragraph=""
+                backgroundImg='1.webp'
+                color1="#0e336a"
+                color2="#937a31"
+                imagey={false}
+            />
+            <Section5New
                 title="THE METAVERSITY"
                 description="9876 Student Monkeys that attend
                 Metaverse University on the Blockchain."

@@ -40,6 +40,7 @@ const Wrap = styled.div`
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
   align-items: center;
   background : url('/images/4.png') center center / contain, radial-gradient(farthest-corner at 40px 40px,
@@ -61,7 +62,10 @@ const ItemText = styled.div`
   }
   h3 {
     margin: 0 0 20px 0;
-    padding: 0 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right,
+      #ba10d5, #f265ff);
     @media (max-width: 500px) {
       font-size: 17px;
       margin: 0 20px 20px 20px;
@@ -74,7 +78,6 @@ const ItemText = styled.div`
 `;
 
 const ImageArea = styled.div`
-  margin-right: 100px;
 `
 
 const ImageSecond = styled.div`
