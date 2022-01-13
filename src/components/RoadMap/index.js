@@ -20,9 +20,7 @@ function RoadMap({
 
         }} src="/images/Metaversity 5_2.png" />
         <ItemText>
-          <h1>
-            Road Map
-          </h1>
+          <h1> Road Map </h1>
           <p>
             Our plans moving forward into 2022.
           </p>
@@ -108,6 +106,13 @@ const ItemText = styled.div`
     margin: 0;
     padding: 0;
     font-size: 80px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    transition: 0.5s;
+  }
+
+  h1:hover {
+    color: rgb(187,0,0);
   }
 
   p {
