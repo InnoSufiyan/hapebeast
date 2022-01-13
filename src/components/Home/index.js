@@ -18,6 +18,7 @@ import Section10 from '../Section10'
 import Section11 from '../Section11'
 import Section12 from '../Section12'
 import Section13 from '../Section13'
+import RoadMap from '../RoadMap'
 
 function Home() {
     return (
@@ -192,6 +193,11 @@ function Home() {
                 color="#131313"
                 imagey={false}
                 textColor='#C69320'
+            />
+            <RoadMap
+                backgroundImg='bg.png'
+                color="#131313"
+                imagey={true}
             />
         </Container>
     )
