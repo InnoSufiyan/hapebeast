@@ -16,6 +16,7 @@ import Section8 from '../Section8'
 import Section9 from '../Section9'
 import Section10 from '../Section10'
 import Section11 from '../Section11'
+import AnimatedRound from '../AnimatedRound'
 import Section12 from '../Section12'
 import Section13 from '../Section13'
 import RoadMap from '../RoadMap'
@@ -192,6 +193,11 @@ function Home() {
             <Section11
                 color="#131313"
                 imagey={false}
+                textColor='#C69320'
+            />
+            <AnimatedRound
+                color="#131313"
+                imagey="bg_2 copy.jpg"
                 textColor='#C69320'
             />
             <RoadMap
