@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import NewSection1 from '../NewSection1'
+import NewSection2 from '../NewSection2'
 import Section1New from '../Section1New'
 import Section2New from '../Section2New'
 import Section3New from '../Section3New'
@@ -24,6 +26,22 @@ import RoadMap from '../RoadMap'
 function Home() {
     return (
         <Container>
+            <NewSection1
+                title="THE METAVERSITY"
+                description="9876 Student Monkeys that attend
+                Metaverse University on the Blockchain."
+                paragraph=""
+                backgroundImg='new/bg-banner-v12.jpg'
+                color="#131313"
+            />
+            <NewSection2
+                title="THE METAVERSITY"
+                description="9876 Student Monkeys that attend
+                Metaverse University on the Blockchain."
+                paragraph=""
+                backgroundImg='new/bg-banner-v12.jpg'
+                color="#131313"
+            />
             <Section1New
                 title="THE METAVERSITY"
                 description="9876 Student Monkeys that attend
