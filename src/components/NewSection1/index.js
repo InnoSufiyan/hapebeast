@@ -44,6 +44,7 @@ const Wrap = styled.div`
 const ItemText = styled.div`
   color: white;
   display: flex;
+  justify-content: space-around;
   width: 100%;
 
   

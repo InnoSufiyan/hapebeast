@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import NewSection1 from '../NewSection1'
 import NewSection2 from '../NewSection2'
+import NewSection3 from '../NewSection3'
+import NewSection4 from '../NewSection4'
 import Section1New from '../Section1New'
 import Section2New from '../Section2New'
 import Section3New from '../Section3New'
@@ -35,6 +37,14 @@ function Home() {
                 color="#131313"
             />
             <NewSection2
+                title="THE METAVERSITY"
+                description="9876 Student Monkeys that attend
+                Metaverse University on the Blockchain."
+                paragraph=""
+                backgroundImg='new/bg-banner-v12.jpg'
+                color="#131313"
+            />
+            <NewSection3
                 title="THE METAVERSITY"
                 description="9876 Student Monkeys that attend
                 Metaverse University on the Blockchain."
