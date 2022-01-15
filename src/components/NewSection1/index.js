@@ -15,7 +15,7 @@ function NewSection1({
       <Fade bottom>
         <ItemText>
           <SideImage>
-            <img src="/images/new/man-v1.png" />
+            <img src="/images/11.png" />
           </SideImage>
           <TextImage>
             <img src="/images/new/text-v3.png" />
@@ -37,7 +37,7 @@ const Wrap = styled.div`
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  background-image: url("/images/new/bg-banner-v12.jpg");
+  background-image: url("/images/bgg.jpeg");
   position: relative;
 
 
@@ -126,6 +126,8 @@ const SideImage = styled.div`
     position: relative;
     bottom: 0;
     left: 0;
+    // width: 600px;
+    // height: 600px;
 
     img {
       width: 100%;

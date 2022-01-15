@@ -16,7 +16,7 @@ function NewSection5({
       <Fade bottom>
         <TextImage>
           <h1>
-            Road Map
+            RoadMap
           </h1>
           <CompleteMap>
             <div class="line-up-content-circle">
@@ -94,12 +94,12 @@ const Wrap = styled.div`
   width: 100vw;
   min-height: 100vh;
   background-size: 100%;
-  background-position: 50% 22%;
-  background-repeat: no-repeat;
+  // background-position: 50% 22%;
+  // background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/new/bg-banner-v12.jpg");
+  background-image: url("/images/bgg.jpeg");
   position: relative;
   padding: 40px 0;
 

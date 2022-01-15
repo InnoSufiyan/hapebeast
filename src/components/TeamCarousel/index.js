@@ -60,38 +60,48 @@ const TeamCarousel = ({ item }) => {
         <Slider ref={sliderRef} {...settings}>
           <div className={styles.slideBox}>
             <img src="/images/team5.png" alt="team5" />
-            <h3>Sara</h3>
-            <h4>Desination</h4>
+            <h3>Srikar Karra</h3>
+            <h4>Co-Founder</h4>
           </div>
           <div className={styles.slideBox}>
             <img src="/images/team3.jpeg" alt="team3" />
-            <h3>John</h3>
-            <h4>Desination</h4>
+            <h3>Sai Karra</h3>
+            <h4>Co-Founder</h4>
           </div>
           <div className={styles.slideBox}>
             <img src="/images/team3.jpeg" alt="team3" />
-            <h3>Doe</h3>
-            <h4>Desination</h4>
+            <h3>Cameron Dallas</h3>
+            <h4>Director</h4>
           </div>
           <div className={styles.slideBox}>
             <img src="/images/team5.png" alt="team5" />
-            <h3>Kent</h3>
-            <h4>Desination</h4>
+            <h3>Sonny Fazio</h3>
+            <h4>Marketing Lead</h4>
           </div>
           <div className={styles.slideBox}>
             <img src="/images/team3.jpeg" alt="team3" />
-            <h3>John</h3>
-            <h4>Desination</h4>
+            <h3>Dixon Wixted</h3>
+            <h4>Content Lead</h4>
           </div>
           <div className={styles.slideBox}>
             <img src="/images/team5.png" alt="team5" />
-            <h3>John</h3>
-            <h4>Desination</h4>
+            <h3>Harsha Tambareni</h3>
+            <h4>Community Manager</h4>
           </div>
           <div className={styles.slideBox}>
             <img src="/images/team3.jpeg" alt="team3" />
-            <h3>Kent</h3>
-            <h4>Desination</h4>
+            <h3>Simon Pompan</h3>
+            <h4>Advisor</h4>
+          </div>
+          <div className={styles.slideBox}>
+            <img src="/images/team3.jpeg" alt="team3" />
+            <h3>Firky</h3>
+            <h4>Artist</h4>
+          </div>
+          <div className={styles.slideBox}>
+            <img src="/images/team3.jpeg" alt="team3" />
+            <h3>Danish Manzoor</h3>
+            <h4>Blockchain Expert</h4>
           </div>
         </Slider>
       </div>

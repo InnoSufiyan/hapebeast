@@ -54,7 +54,7 @@ function NewSection2({
         </TextImage>
         <SideImage>
           <Fade right>
-            <img src="/images/new/about-image.png" />
+            <img src="/images/12.png" />
           </Fade> 
         </SideImage>
       </div>
@@ -71,7 +71,7 @@ const Wrap = styled.div`
   background-position: 50% 11%;
   background-repeat: no-repeat;
   display: flex;
-  background-image: url("/images/new/bg-banner-v12.jpg");
+  background-image: url("/images/bgg.jpeg");
   position: relative;
   padding: 40px 0;
 `;
