@@ -39,6 +39,13 @@ const Wrap = styled.div`
   align-items: center;
   background-image: url("/images/new/bg-banner-v12.jpg");
   position: relative;
+
+
+  @media (max-width: 1100px) {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+  }
 `;
 
 const ItemText = styled.div`
@@ -46,6 +53,11 @@ const ItemText = styled.div`
   display: flex;
   justify-content: space-around;
   width: 100%;
+
+  @media (max-width: 1100px) {
+    flex-direction: column;
+    align-items: center;
+  }
 
   
 `;
@@ -114,4 +126,19 @@ const SideImage = styled.div`
     position: relative;
     bottom: 0;
     left: 0;
+
+    img {
+      width: 100%;
+    }
+
+    @media (max-width: 1100px) {
+      position: unset;
+      width: 400px;
+      height: 400px;
+    }
+    @media (max-width: 1100px) {
+      position: unset;
+      width: 200px;
+      height: 200px;
+    }
 `
