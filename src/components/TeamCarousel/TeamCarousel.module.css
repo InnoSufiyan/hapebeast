@@ -1,0 +1,44 @@
+.sliderRoot {
+    padding: 130px 0;
+    background: black;
+    background-image: url("/images/roadmap.png");
+  }
+  .sliderWrapper {
+    color: white;
+  }
+  .teamTitle {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+  }
+  .teamTitle span {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+  }
+  .prevArrow::before,
+  .nextArrow:before {
+    content: "" !important;
+  }
+  .sliderWrapper h3 {
+    font-size: 60px;
+  }
+  .slideBox {
+    background-color: blue;
+    border: 1px solid green;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+  }
+  .slideBox h3 {
+    font-size: 20px;
+    color: white;
+  }
+  .slideBox h3 {
+    font-size: 14px;
+    color: white;
+  }
+  .slideBox img {
+    max-width: 100%;
+  }

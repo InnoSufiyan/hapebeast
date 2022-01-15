@@ -29,12 +29,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1F1F26;
+  background-color: #1f1f26;
 }
 .accordionTitle.open::after {
   content: "";
-  border-top: 0;
-  border-bottom: 5px solid;
 }
 
 .accordionTitle:hover,
@@ -44,11 +42,12 @@
 
 .accordionTitle::after {
   content: "";
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid currentColor;
+  width: 40px;
+  height: 40px;
+  background-image: url("/images/plus_icon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .accordionContent {

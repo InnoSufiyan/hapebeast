@@ -4,6 +4,8 @@ import NewSection1 from '../NewSection1'
 import NewSection2 from '../NewSection2'
 import NewSection3 from '../NewSection3'
 import NewSection4 from '../NewSection4'
+import NewSection5 from '../NewSection5'
+import TeamCarousel from '../TeamCarousel'
 import Section1New from '../Section1New'
 import Section2New from '../Section2New'
 import Section3New from '../Section3New'
@@ -60,6 +62,15 @@ function Home() {
                 backgroundImg='new/bg-banner-v12.jpg'
                 color="#131313"
             />
+            <NewSection5
+                title="THE METAVERSITY"
+                description="9876 Student Monkeys that attend
+                Metaverse University on the Blockchain."
+                paragraph=""
+                backgroundImg='new/bg-banner-v12.jpg'
+                color="#131313"
+            />
+            <TeamCarousel />
             {/* <Section1New
                 title="THE METAVERSITY"
                 description="9876 Student Monkeys that attend
