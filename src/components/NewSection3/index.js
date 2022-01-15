@@ -15,7 +15,7 @@ function NewSection3({
       <Fade bottom>
         <TextImage>
           <h1>
-            Become a Part of the Community
+            Become a Part of the <span>Community</span>
           </h1>
           <h3>
             The Metaversity: A community of like-minded side hustlers who want to break the 9-5 cycle.
@@ -75,6 +75,11 @@ const TextImage = styled.div`
     margin: 0;
     padding: 0;
     text-align: center;
+    text-transform: uppercase;
+
+    span {
+      color: #3A8BAE;
+    }
   }
 
   h3 {
@@ -87,7 +92,6 @@ const TextImage = styled.div`
   p {
     font-size: 18px;
     text-align: center;
-    margin : 50px 300px;
     line-height: 1.7;
   }
 `;

@@ -13,7 +13,7 @@ function NewSection2({
   return (
     <Wrap bgImage={backgroundImg} colory={color}>
       <div style={{
-        width: '60vw',
+        width: '80vw',
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -22,7 +22,7 @@ function NewSection2({
 
         <TextImage>
           <Fade bottom>
-            <h1>ABOUT US</h1>
+            <h1>ABOUT  <span>US</span></h1>
             <h3>The Metaverse Monkey Takeover.</h3>
             <p>
               In a world dominated by big, hairy apes, the cute little monkeys were nowhere to be seen.
@@ -84,14 +84,21 @@ const TextImage = styled.div`
 
   h1 {
     font-size: 65px;
-    margin: 0;
+    margin: 0 0 20px 0;
     padding: 0;
+    letter-spacing: 10px;
+    font-weight: bold;
+
+    span {
+      color: #3A8BAE;
+    }
   }
 
   h3 {
-    font-size: 28px;
-    margin: 0;
+    font-size: 32px;
+    margin: 0 0 20px 0;
     padding: 0;
+    line-height: 35px;
   }
 
   p {
