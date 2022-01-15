@@ -54,14 +54,6 @@ function Home() {
                 backgroundImg='new/bg-banner-v12.jpg'
                 color="#131313"
             />
-            <NewSection4
-                title="THE METAVERSITY"
-                description="9876 Student Monkeys that attend
-                Metaverse University on the Blockchain."
-                paragraph=""
-                backgroundImg='new/bg-banner-v12.jpg'
-                color="#131313"
-            />
             <NewSection5
                 title="THE METAVERSITY"
                 description="9876 Student Monkeys that attend
@@ -71,6 +63,14 @@ function Home() {
                 color="#131313"
             />
             <TeamCarousel />
+            <NewSection4
+                title="THE METAVERSITY"
+                description="9876 Student Monkeys that attend
+                Metaverse University on the Blockchain."
+                paragraph=""
+                backgroundImg='new/bg-banner-v12.jpg'
+                color="#131313"
+            />
             {/* <Section1New
                 title="THE METAVERSITY"
                 description="9876 Student Monkeys that attend

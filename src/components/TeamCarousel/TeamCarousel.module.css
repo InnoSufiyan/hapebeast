@@ -1,7 +1,7 @@
 .sliderRoot {
     padding: 130px 0;
     background: black;
-    background-image: url("/images/roadmap.png");
+    /* background-image: url("/images/team_bg.png"); */
   }
   .sliderWrapper {
     color: white;
