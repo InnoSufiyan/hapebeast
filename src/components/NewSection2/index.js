@@ -66,13 +66,14 @@ export default NewSection2;
 
 const Wrap = styled.div`
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-size: 100%;
   background-position: 50% 11%;
   background-repeat: no-repeat;
   display: flex;
   background-image: url("/images/new/bg-banner-v12.jpg");
   position: relative;
+  padding: 40px 0;
 `;
 
 

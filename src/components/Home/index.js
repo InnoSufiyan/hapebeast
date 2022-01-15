@@ -52,7 +52,15 @@ function Home() {
                 backgroundImg='new/bg-banner-v12.jpg'
                 color="#131313"
             />
-            <Section1New
+            <NewSection4
+                title="THE METAVERSITY"
+                description="9876 Student Monkeys that attend
+                Metaverse University on the Blockchain."
+                paragraph=""
+                backgroundImg='new/bg-banner-v12.jpg'
+                color="#131313"
+            />
+            {/* <Section1New
                 title="THE METAVERSITY"
                 description="9876 Student Monkeys that attend
                 Metaverse University on the Blockchain."
@@ -232,7 +240,7 @@ function Home() {
                 backgroundImg='bg.png'
                 color="#131313"
                 imagey={true}
-            />
+            /> */}
         </Container>
     )
 }

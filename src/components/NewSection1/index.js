@@ -18,7 +18,7 @@ function NewSection1({
             <img src="/images/new/man-v1.png" />
           </SideImage>
           <TextImage>
-            <img src="/images/new/text-v1.svg" />
+            <img src="/images/new/text-v3.png" />
             <ForButton>Buy on Open Sea</ForButton>
           </TextImage>
         </ItemText>
@@ -31,7 +31,7 @@ export default NewSection1;
 
 const Wrap = styled.div`
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -56,6 +56,7 @@ const TextImage = styled.div`
 
   img {
     width: 100%;
+    margin: 0 0 0 -60px;
   }
 `;
 

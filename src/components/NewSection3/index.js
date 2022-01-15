@@ -52,7 +52,7 @@ export default NewSection3;
 
 const Wrap = styled.div`
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-size: 100%;
   background-position: 50% 22%;
   background-repeat: no-repeat;
@@ -61,6 +61,8 @@ const Wrap = styled.div`
   align-items: center;
   background-image: url("/images/new/bg-banner-v12.jpg");
   position: relative;
+  padding: 40px 0;
+
 `;
 
 const TextImage = styled.div`
