@@ -53,7 +53,7 @@ export default NewSection3;
 const Wrap = styled.div`
   width: 100vw;
   min-height: 100vh;
-  background-size: 100%;
+  background-size: cover;
   background-position: 50% 22%;
   background-repeat: no-repeat;
   display: flex;

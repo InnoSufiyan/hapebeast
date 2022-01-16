@@ -32,7 +32,7 @@ export default NewSection1;
 const Wrap = styled.div`
   width: 100vw;
   min-height: 100vh;
-  background-size: 100%;
+  background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   display: flex;
@@ -45,6 +45,7 @@ const Wrap = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 60px 0;
+    justify-content : center;
   }
 `;
 
@@ -137,10 +138,5 @@ const SideImage = styled.div`
       position: unset;
       width: 400px;
       height: 400px;
-    }
-    @media (max-width: 1100px) {
-      position: unset;
-      width: 200px;
-      height: 200px;
     }
 `

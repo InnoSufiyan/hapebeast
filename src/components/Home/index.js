@@ -31,6 +31,7 @@ function Home() {
     return (
         <Container>
             <NewSection1
+                id="Home"
                 title="THE METAVERSITY"
                 description="9876 Student Monkeys that attend
                 Metaverse University on the Blockchain."
@@ -39,6 +40,7 @@ function Home() {
                 color="#131313"
             />
             <NewSection2
+                id="About Us"
                 title="THE METAVERSITY"
                 description="9876 Student Monkeys that attend
                 Metaverse University on the Blockchain."
