@@ -12,13 +12,7 @@ function NewSection2({
 }) {
   return (
     <Wrap bgImage={backgroundImg} colory={color}>
-      <div style={{
-        width: '80vw',
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        margin: '0 auto',
-      }}>
+      <Container>
 
         <TextImage>
           <Fade bottom>
@@ -55,9 +49,9 @@ function NewSection2({
         <SideImage>
           <Fade right>
             <img src="/images/12.png" />
-          </Fade> 
+          </Fade>
         </SideImage>
-      </div>
+      </Container>
     </Wrap >
   );
 }
@@ -74,7 +68,24 @@ const Wrap = styled.div`
   background-image: url("/images/bgg.jpeg");
   position: relative;
   padding: 40px 0;
+
+
+ 
 `;
+
+const Container = styled.div`
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  @media (max-width: 1100px) {
+      flex-direction: column-reverse;
+      gap: 30px;
+
+    }
+`
 
 
 const TextImage = styled.div`
@@ -104,6 +115,12 @@ const TextImage = styled.div`
   p {
     font-size: 18px;
   }
+
+
+  @media (max-width: 1100px) {
+      width: 90%;
+
+    }
 `;
 
 
@@ -115,4 +132,10 @@ const SideImage = styled.div`
   img {
     width: 100%;
   }
+
+  @media (max-width: 1100px) {
+      width: 400px;
+      height: 400px;
+
+    }
 `
